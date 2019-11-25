@@ -1,0 +1,129 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+/* header start here*/
+    .header{
+        width:100%;
+        min-height: 80px;
+        background-color: red;
+
+
+    }
+    .logo{
+
+        display: inline-block;
+        font-size: 20px;
+    }
+.logo p{
+    color:white;
+}
+    .nav {
+
+
+         float:right;
+        line-height: 80px;
+        margin:0px 20px;
+        padding: 0px 20px;
+
+        font-size: 50px;
+    }
+    .nav ul{
+        display: flex;
+    }
+    .nav li{
+        list-style: none;
+    }
+    .nav a{
+        color:white;
+
+        text-decoration: none;
+    }
+    nav ul li {
+        
+
+
+    }
+/*end here header*/
+
+/*banner start here*/
+.banner{
+    width:100%;
+    height:326px;
+    border: 2px solid black;
+   
+}
+.text{
+    position: absolute;
+    text-align: center;
+            color: black;
+            font-size: 25px;
+            left:0px;
+            right:0px;
+            margin: 135px auto;
+            
+}
+
+/*banner end here*/
+.container{
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+.blog{
+    float: left;
+    width: 70%;
+    min-height: 300px;
+    background-color: yellow;
+}
+.contact{
+    float:right;
+    width:25%;
+    background-color: blue;
+  
+    
+}
+.about {
+    width: 100%;
+    min-height: 300px;
+    background-color:paleturquoise;
+}
+.postion{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    border: 2px dotted black;
+}
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.text2{
+    text-align: center;
+}
+.box1{
+    background-color: black;
+    left: 0px;
+    bottom:0px;
+}
+.box2{
+    background-color: greenyellow;
+    left:0;
+    right: 0px;
+    margin: 352px auto;
+}
+.box3{
+    background-color: firebrick;
+    top:0px;
+    right: 0px;
+ 
+}
+.box4{
+    background-color:greenyellow;
+    right:0px;
+    bottom: 0px;
+    
+}
